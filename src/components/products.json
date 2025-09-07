@@ -40,7 +40,7 @@
             "name": "The Ordinary Hyaluronic Acid 2% + B5",
             "brand": "The Ordinary",
             "category": "Serum",
-            "skinType": ["All"],
+            "skinType": [],
             "concern": ["Dryness"],
             "price": 1000,
             "link": "https://sephora.in/product/the-ordinary-hyaluronic-acid-2-b5-v2-next-gen-v-30ml"
@@ -85,172 +85,163 @@
             "name": "CeraVe PM Facial Moisturizing Lotion (89ml)",
             "brand": "CeraVe",
             "category": "Moisturizer",
-            "skinType": ["All"],
-            "concern": ["Night Repair", "Hydration"],
+            "skinType": [],
+            "concern": [],
             "price": 1300,
-            "link": "https://www.cerave.com/skincare/moisturizers/pm-facial-moisturizing-lotion"
+            "link": "https://www.nykaa.com/cerave-pm-facial-moisturizer-ultra-lightweight-night-cream/p/13169461"
         },
         {
             "name": "CeraVe Resurfacing Retinol Serum",
             "brand": "CeraVe",
             "category": "Serum",
             "skinType": ["Oily", "Combination"],
-            "concern": ["Acne Marks", "Post-Blemish Marks"],
+            "concern": [],
             "price": 1500,
-            "link": "https://www.cerave.com/skincare/serums/resurfacing-retinol-serum"
+            "link": "https://www.nykaa.com/cerave-resurfacing-retinol-serum/p/20826332"
         },
         {
             "name": "CeraVe Hydrating Hyaluronic Acid Serum",
             "brand": "CeraVe",
             "category": "Serum",
-            "skinType": ["All"],
-            "concern": ["Dryness", "Hydration"],
-            "price": 1700,
-            "link": "https://www.cerave.com/skincare/serums/hyaluronic-acid-serum"
+            "skinType": [],
+            "concern": ["Dryness"],
+            "price": 1625,
+            "link": "https://beautiful.in/beauty/skin/moisturizers/serums-essence/cerave-hydrating-hyaluronic-acid-serum-30-ml"
         },
         {
             "name": "Minimalist Salicylic Acid 2% Serum",
             "brand": "Minimalist",
             "category": "Serum",
             "skinType": ["Oily", "Combination"],
-            "concern": ["Acne", "Oiliness", "Blackheads"],
-            "price": 599,
-            "link": "https://beminimalist.co/products/salicylic-acid-2-face-serum"
+            "concern": ["Acne", "Oiliness"],
+            "price": 549,
+            "link": "https://beminimalist.co/products/salicylic-acid-2"
         },
         {
-            "name": "Minimalist Hyaluronic Acid 2% + B5 Serum",
+            "name": "Minimalist Hyaluronic Acid 2% + PGA Serum",
             "brand": "Minimalist",
             "category": "Serum",
             "skinType": ["Dry", "Normal", "Sensitive"],
-            "concern": ["Dryness", "Aging", "Hydration"],
+            "concern": ["Dryness", "Aging"],
             "price": 599,
-            "link": "https://beminimalist.co/products/hyaluronic-acid-2-b5"
+            "link": "https://www.nykaa.com/minimalist-hyaluronic-acid-2-face-serum/p/1067999"
         },
         {
             "name": "Minimalist Sunscreen SPF 50 (Multi-Vitamin)",
             "brand": "Minimalist",
             "category": "Sunscreen",
-            "skinType": ["All"],
-            "concern": ["Pigmentation", "Aging", "Sun Protection"],
+            "skinType": [],
+            "concern": ["Pigmentation", "Aging"],
             "price": 399,
-            "link": "https://beminimalist.co/products/multivitamin-spf-50-pa-sunscreen"
+            "link": "https://beminimalist.co/products/multi-vitamin-spf-50"
         },
         {
             "name": "Minimalist Alpha Arbutin 2% + HA",
             "brand": "Minimalist",
             "category": "Serum",
-            "skinType": ["All"],
-            "concern": ["Hyperpigmentation", "Dark Spots"],
-            "price": 599,
-            "link": "https://beminimalist.co/products/alpha-arbutin-2-ha"
+            "skinType": [],
+            "concern": [],
+            "price": 549,
+            "link": "https://beminimalist.co/products/alpha-arbutin-2"
         },
         {
             "name": "Minimalist 10% Vitamin C Serum",
             "brand": "Minimalist",
             "category": "Serum",
-            "skinType": ["All"],
-            "concern": ["Dullness", "Uneven Skin Tone"],
+            "skinType": [],
+            "concern": [],
             "price": 699,
-            "link": "https://beminimalist.co/products/10-vitamin-c-serum"
+            "link": "https://beminimalist.co/products/vitamin-c-ethyl-ascorbic-acid-10-acetyl-glucosamine-1"
         },
         {
-            "name": "Minimalist Niacinamide 10% + Zinc",
+            "name": "Minimalist Niacinamide 10%",
             "brand": "Minimalist",
             "category": "Serum",
             "skinType": ["Oily", "Combination"],
-            "concern": ["Pores", "Oil Control"],
-            "price": 649,
-            "link": "https://beminimalist.co/products/niacinamide-10-zinc-serum"
+            "concern": [],
+            "price": 599,
+            "link": "https://beminimalist.co/products/niacinamide-10-with-matmarine"
         },
         {
-            "name": "Dot & Key Vitamin C Serum (10% Vitamin C + E)",
+            "name": "Dot & Key Vitamin C + Niacinamide Serum (10% Vitamin C + E + 5% Niacinamide)",
             "brand": "Dot & Key",
             "category": "Serum",
             "skinType": ["Normal", "Combination"],
-            "concern": ["Pigmentation", "Glow"],
-            "price": 845,
-            "link": "https://www.dotandkey.com/products/vitamin-c-e-face-serum"
+            "concern": ["Pigmentation"],
+            "price": 695,
+            "link": "https://www.dotandkey.com/products/dot-key-10-vitamin-c-e-5-niacinamide-serum-for-glowing-skin-beginner-friendly"
         },
         {
             "name": "Dot & Key Watermelon Gel Moisturizer",
             "brand": "Dot & Key",
             "category": "Moisturizer",
             "skinType": ["Oily", "Combination"],
-            "concern": ["Oiliness", "Hydration"],
-            "price": 395,
-            "link": "https://www.dotandkey.com/products/watermelon-superglow-matte-moisturizer"
+            "concern": ["Oiliness"],
+            "price": 495,
+            "link": "https://www.dotandkey.com/products/watermelon-moisturizer-icy-gel"
         },
         {
             "name": "Dot & Key Cica Niacinamide Sunscreen SPF 50",
             "brand": "Dot & Key",
             "category": "Sunscreen",
-            "skinType": ["All"],
-            "concern": ["Pigmentation", "Sun Protection"],
-            "price": 495,
-            "link": "https://www.dotandkey.com/products/cica-niacinamide-sunscreen-spf-50-pa"
+            "skinType": [],
+            "concern": ["Pigmentation"],
+            "price": 595,
+            "link": "https://www.dotandkey.com/products/cica-calming-mattifying-sunscreen-spf-50-pa"
         },
         {
             "name": "Dot & Key Ceramides & Hyaluronic Skin Barrier Repair Moisturizer",
             "brand": "Dot & Key",
             "category": "Moisturizer",
             "skinType": ["Dry", "Sensitive"],
-            "concern": ["Barrier Repair", "Dryness"],
-            "price": 695,
-            "link": "https://www.dotandkey.com/products/ceramides-hyaluronic-hydrating-face-cream"
-        },
-        {
-            "name": "Dot & Key Pollution and Acne Defense Green Clay Mask",
-            "brand": "Dot & Key",
-            "category": "Mask",
-            "skinType": ["Oily", "Acne-prone"],
-            "concern": ["Acne", "Detox"],
-            "price": 795,
-            "link": "https://www.dotandkey.com/products/pollution-and-acne-defense-green-clay-mask"
+            "concern": ["Dryness"],
+            "price": 599,
+            "link": "https://www.dotandkey.com/products/dot-key-ceramides-hyaluronic-hydrating-face-cream-i-repairs-skin-barrier-intense-moisturization-sensitive-dry-skin-fragrance-free"
         },
         {
             "name": "Neutrogena Hydro Boost Water Gel",
             "brand": "Neutrogena",
             "category": "Moisturizer",
             "skinType": ["Oily", "Combination", "Normal"],
-            "concern": ["Dryness", "Hydration"],
-            "price": 950,
-            "link": "https://www.neutrogena.in/product/neutrogena-hydro-boost-water-gel"
+            "concern": ["Dryness"],
+            "price": 1190,
+            "link": "https://www.nykaa.com/neutrogena-hydro-boost-water-gel/p/875156"
         },
         {
             "name": "Neutrogena Deep Clean Foaming Cleanser",
             "brand": "Neutrogena",
             "category": "Cleanser",
             "skinType": ["Oily", "Combination"],
-            "concern": ["Oiliness", "Deep Clean"],
-            "price": 299,
-            "link": "https://www.neutrogena.in/product/neutrogena-deep-clean-foaming-cleanser"
+            "concern": ["Oiliness"],
+            "price": 185,
+            "link": "https://www.nykaa.com/neutrogena-deep-clean-foam-cleanser/p/5994"
         },
         {
             "name": "Neutrogena Oil-Free Acne Wash",
             "brand": "Neutrogena",
             "category": "Cleanser",
-            "skinType": ["Oily", "Acne-prone"],
+            "skinType": ["Oily", "Acne"],
             "concern": ["Acne", "Oiliness"],
-            "price": 600,
-            "link": "https://www.neutrogena.in/product/neutrogena-oil-free-acne-wash"
+            "price": 850,
+            "link": "https://www.nykaa.com/neutrogena-oil-free-acne-wash/p/2559"
         },
         {
             "name": "Neutrogena Ultra Sheer Dry-Touch Sunscreen SPF 50+",
             "brand": "Neutrogena",
             "category": "Sunscreen",
-            "skinType": ["All"],
-            "concern": ["Sun Protection", "Aging"],
-            "price": 750,
-            "link": "https://www.neutrogena.in/product/neutrogena-ultra-sheer-dry-touch-sunscreen-spf-50-pa"
+            "skinType": [],
+            "concern": ["Aging"],
+            "price": 780,
+            "link": "https://www.nykaa.com/neutrogena-ultrasheer-dry-touch-sunblock-spf-50/p/5997"
         },
         {
             "name": "Neutrogena Hydro Boost Cleanser",
             "brand": "Neutrogena",
             "category": "Cleanser",
             "skinType": ["Dry", "Normal"],
-            "concern": ["Dryness", "Hydration"],
+            "concern": ["Dryness"],
             "price": 450,
-            "link": "https://www.neutrogena.in/product/neutrogena-hydro-boost-water-gel-face-wash"
+            "link": "https://www.nykaa.com/neutrogena-hydro-boost-water-gel-cleanser/p/8427681155"
         },
         {
             "name": "Plum Green Tea Foaming Face Wash",
@@ -271,29 +262,29 @@
             "link": "https://plumgoodness.com/products/green-tea-renewed-clarity-night-gel"
         },
         {
-            "name": "Plum Green Tea Day-Light Sunscreen Gel SPF 35",
+            "name": "Plum Green Tea Zinc Super Matte Sunscreen Gel SPF 50 PA+++ (for Oily Skin)",
             "brand": "Plum",
             "category": "Sunscreen",
             "skinType": ["Combination", "Oily"],
-            "concern": ["Pigmentation", "Oiliness", "Sun Protection"],
-            "price": 525,
-            "link": "https://plumgoodness.com/products/green-tea-day-light-sunscreen-gel-spf-35-pa"
+            "concern": ["Pigmentation", "Oiliness"],
+            "price": 425,
+            "link": "https://plumgoodness.com/products/green-tea-zinc-super-matte-sunscreen-gel-spf-50-pa-spf-for-oily-skin-newupdate"
         },
         {
             "name": "Plum 15% Vitamin C Face Serum with Mandarin",
             "brand": "Plum",
             "category": "Serum",
-            "skinType": ["All"],
-            "concern": ["Dullness", "Pigmentation", "Glow"],
+            "skinType": [],
+            "concern": ["Pigmentation"],
             "price": 550,
-            "link": "https://plumgoodness.com/products/15-vitamin-c-face-serum"
+            "link": "https://plumgoodness.com/products/vitamin-c-face-serum"
         },
         {
             "name": "Plum E-Luminence Deep Moisturizing Crème",
             "brand": "Plum",
             "category": "Moisturizer",
             "skinType": ["Dry", "Normal"],
-            "concern": ["Dryness", "Hydration"],
+            "concern": ["Dryness"],
             "price": 575,
             "link": "https://plumgoodness.com/products/e-luminence-deep-moisturizing-creme"
         },
@@ -302,52 +293,52 @@
             "brand": "Aqualogica",
             "category": "Sunscreen",
             "skinType": ["All"],
-            "concern": ["Pigmentation", "Glow", "Sun Protection"],
-            "price": 399,
-            "link": "https://aqualogica.in/products/glow-dewy-sunscreen-spf-50-pa-with-papaya-vitamin-c"
+            "concern": ["Pigmentation"],
+            "price": 599,
+            "link": "https://aqualogica.in/products/glow-concentrate-face-serum-for-skin-brightening-and-glow-with-vitamin-c-papaya-and-hyaluronic-acid-non-sticky-30ml"
         },
         {
             "name": "Aqualogica Hydrate+ Jello Moisturizer",
             "brand": "Aqualogica",
             "category": "Moisturizer",
             "skinType": ["Dry", "Normal", "Combination"],
-            "concern": ["Dryness", "Hydration"],
-            "price": 599,
-            "link": "https://aqualogica.in/products/hydrate-jello-moisturizer"
+            "concern": ["Dryness"],
+            "price": 699,
+            "link": "https://aqualogica.in/products/hydrate-gel-moisturiser-with-coconut-water-and-hyaluronic-acid-100-gm"
         },
         {
             "name": "Aqualogica Clear+ Concentrate Face Serum",
             "brand": "Aqualogica",
             "category": "Serum",
-            "skinType": ["Oily", "Acne-prone"],
-            "concern": ["Acne", "Oiliness", "Blemishes"],
+            "skinType": ["Oily"],
+            "concern": ["Acne", "Oiliness"],
             "price": 599,
             "link": "https://aqualogica.in/products/clear-concentrate-face-serum-with-green-tea-salicylic-acid"
         },
         {
-            "name": "Aqualogica Radiance+ Dewy Face Wash",
+            "name": "Aqualogica Radiance+ Smoothie Face Wash",
             "brand": "Aqualogica",
             "category": "Cleanser",
             "skinType": ["All"],
-            "concern": ["Dullness", "Glow"],
-            "price": 349,
-            "link": "https://aqualogica.in/products/radiance-dewy-face-wash-with-watermelon-niacinamide"
+            "concern": [],
+            "price": 249,
+            "link": "https://aqualogica.in/products/radiance-smoothie-face-wash-50g"
         },
         {
-            "name": "The Derma Co 2% Kojic Acid Face Serum",
+            "name": "The Derma Co 2% Kojic Acid Face Serum with 1% Alpha Arbutin & Niacinamide",
             "brand": "The Derma Co",
             "category": "Serum",
             "skinType": ["Combination", "Normal"],
-            "concern": ["Pigmentation", "Dark Spots"],
-            "price": 649,
-            "link": "https://thedermaco.com/product/2-kojic-acid-face-serum-with-1-alpha-arbutin-for-dark-spots-pigmentation"
+            "concern": ["Pigmentation"],
+            "price": 499,
+            "link": "https://thedermaco.com/product/2-kojic-acid-face-serum-with-1-alpha-arbutin-niacinamide-30-ml"
         },
         {
             "name": "The Derma Co 1% Hyaluronic Sunscreen Aqua Gel SPF 50",
             "brand": "The Derma Co",
             "category": "Sunscreen",
             "skinType": ["All"],
-            "concern": ["Aging", "Sun Protection"],
+            "concern": ["Aging"],
             "price": 499,
             "link": "https://thedermaco.com/product/1-hyaluronic-acid-sunscreen-aqua-gel"
         },
@@ -356,27 +347,27 @@
             "brand": "The Derma Co",
             "category": "Serum",
             "skinType": ["All"],
-            "concern": ["Dullness", "Pigmentation", "Radiance"],
-            "price": 699,
-            "link": "https://thedermaco.com/product/10-vitamin-c-face-serum-for-skin-radiance"
+            "concern": ["Pigmentation"],
+            "price": 649,
+            "link": "https://thedermaco.com/product/10-vitamin-c-face-serum-with-niacinamide-hyaluronic-acid-for-skin-radiance-30ml"
         },
         {
             "name": "The Derma Co 5% Niacinamide Face Serum",
             "brand": "The Derma Co",
             "category": "Serum",
             "skinType": ["Oily", "Combination"],
-            "concern": ["Acne Marks", "Open Pores"],
-            "price": 599,
-            "link": "https://thedermaco.com/product/5-niacinamide-face-serum-with-multi-biotics"
+            "concern": ["Pigmentation", "Acne"],
+            "price": 499,
+            "link": "https://thedermaco.com/product/5-niacinamide-daily-face-serum-with-alpha-arbutin-multivitamin-30ml"
         },
         {
             "name": "The Derma Co 2% Salicylic Acid Face Wash",
             "brand": "The Derma Co",
             "category": "Cleanser",
-            "skinType": ["Oily", "Acne-prone"],
-            "concern": ["Acne", "Breakouts"],
-            "price": 349,
-            "link": "https://thedermaco.com/product/2-salicylic-acid-face-wash-for-acne-prone-skin"
+            "skinType": ["Oily"],
+            "concern": ["Acne"],
+            "price": 499,
+            "link": "https://thedermaco.com/product/2-salicylic-acid-serum"
         }
     ]
 }
