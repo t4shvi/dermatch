@@ -1,13 +1,12 @@
 import { useState } from "react";
 import "../App.css";
-
 function Quiz() {
   const skinTypeImages = {
-    Oily: "/oily.jpg",
-    Dry: "/dry.jpg",
-    Combination: "/combination.jpg",
-    Normal: "/normal.jpg",
-    Sensitive: "/sensitive.jpg",
+    Oily: process.env.PUBLIC_URL + "/oily.jpg",
+    Dry: process.env.PUBLIC_URL + "/dry.jpg",
+    Combination: process.env.PUBLIC_URL + "/combination.jpg",
+    Normal: process.env.PUBLIC_URL + "/normal.jpg",
+    Sensitive: process.env.PUBLIC_URL + "/sensitive.jpg",
   };
 
     const questions = [

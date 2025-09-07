@@ -7,51 +7,50 @@ const Analysis = ({ userPreferences }) => {
 
   const { skinType = "", concern = [], budget = 0 } = userPreferences || {};
 
-  useEffect(() => {
-    if (!skinType || !budget || Number(budget) < 800) {
-      setRoutine({});
-      return;
-    }
+useEffect(() => {
+  if (!skinType || !budget) {
+    setRoutine({});
+    return;
+  }
 
-    const categories = ["Cleanser", "Serum", "Moisturizer", "Sunscreen"];
-    const newRoutine = {};
+  const categories = ["Cleanser", "Serum", "Moisturizer", "Sunscreen"];
+  const newRoutine = {};
 
-    categories.forEach((category) => {
-      let matches = productsData.products.filter((product) => {
-        const matchesSkinType =
-          product.skinType.includes("All") ||
-          product.skinType.some(
-            (s) => s.toLowerCase() === skinType.toLowerCase()
-          );
-
-        const matchesBudget = product.price <= budget;
-
-        let matchesConcern = true;
-        if (category === "Serum") {
-          matchesConcern = product.concern.some((c) =>
-            concern.map((uc) => uc.toLowerCase()).includes(c.toLowerCase())
-          );
-        }
-
-        return (
-          product.category.toLowerCase() === category.toLowerCase() &&
-          matchesSkinType &&
-          matchesBudget &&
-          matchesConcern
+  categories.forEach((category) => {
+    let matches = productsData.products.filter((product) => {
+      const matchesSkinType =
+        product.skinType.includes("All") ||
+        product.skinType.some(
+          (s) => s.toLowerCase() === skinType.toLowerCase()
         );
-      });
 
-      if (matches.length > 0) {
-        const bestOption = matches.reduce((prev, curr) =>
-          prev.price < curr.price ? prev : curr
+      const matchesBudget = product.price <= budget;
+
+      let matchesConcern = true;
+      if (category === "Serum") {
+        matchesConcern = product.concern.some((c) =>
+          concern.map((uc) => uc.toLowerCase()).includes(c.toLowerCase())
         );
-        newRoutine[category] = bestOption;
       }
+
+      return (
+        product.category.toLowerCase() === category.toLowerCase() &&
+        matchesSkinType &&
+        matchesBudget &&
+        matchesConcern
+      );
     });
 
-    setRoutine(newRoutine);
-  }, [skinType, concern, budget]);
+    if (matches.length > 0) {
+      const bestOption = matches.reduce((prev, curr) =>
+        prev.price < curr.price ? prev : curr
+      );
+      newRoutine[category] = bestOption;
+    }
+  });
 
+  setRoutine(newRoutine);
+}, [skinType, concern, budget]);
   const hasResults = Object.keys(routine).length > 0;
 
   if (!hasResults) {
