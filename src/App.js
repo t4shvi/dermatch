@@ -38,32 +38,32 @@ function App() {
       </div>
 
       {showHelp && (
-        <div className="help-popup">
-          <div className="help-popup-content">
-            <button
-              className="help-popup-close"
-              onClick={() => setShowHelp(false)}
-              aria-label="Close"
-            >
-              x
-            </button>
-            <h2 className="help-popup-title">What is Dermatch?</h2>
-            t is Dermatch?</h2>
-            <p>
-             
-        Hey there, bestie! Feeling lost in the world of skincare? We get it. 
-        With a new product popping up every other day, finding what's right for your skin can be overwhelming.<br /><br />
-        That's where <b>Dermatch</b> comes in! We're your <b>completely free</b> skincare matchmaker. 
-        Just tell us your skin type, concerns, and budget, and we'll whip up a personalized routine just for you. 
-        No more guesswork, just great matches!<br /><br />
-        Not sure what your skin type is? No problem! We have a quick and easy quiz to help you figure it out.<br /><br />
-        Once you have your routine, you can even have it sent straight to your inbox. 
+  <div className="help-popup">
+    <div className="help-popup-content">
+      <button
+        className="help-popup-close"
+        onClick={() => setShowHelp(false)}
+        aria-label="Close"
+      >
+        x
+      </button>
+      <h2 className="help-popup-title">What is Dermatch?</h2>
+      <p>
+        Hey there, bestie! Feeling lost in the world of skincare? We get it.
+        With a new product popping up every other day, finding what's right
+        for your skin can be overwhelming.<br /><br />
+        That's where <b>Dermatch</b> comes in! We're your <b>completely free</b> skincare
+        matchmaker. Just tell us your skin type, concerns, and budget, and
+        we'll whip up a personalized routine just for you. No more guesswork,
+        just great matches!<br /><br />
+        Not sure what your skin type is? No problem! We have a quick and easy quiz
+        to help you figure it out.<br /><br />
+        Once you have your routine, you can even have it sent straight to your inbox.
         Because great skin shouldn't be a puzzle—it should be a piece of cake!
-            </p>
-
-          </div>
-        </div>
-      )}
+      </p>
+    </div>
+  </div>
+)}
 
       <main className="form-container">
         <p
